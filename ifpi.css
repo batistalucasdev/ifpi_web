@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo para as seções dos cursos */
+.tipo_cursos {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between; /* Distribui o espaço uniformemente entre as seções */
+    gap: 20px; /* Espaçamento entre as seções */
+    margin-top: 20px;
+}
+
+.tipo_cursos section {
+    flex: 1; /* Faz com que cada seção ocupe o mesmo espaço */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tipo_cursos section h3 {
+    margin-bottom: 10px;
+}
+
+.tipo_cursos section ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.tipo_cursos section ul li {
+    margin-bottom: 8px;
+}
+
+.tipo_cursos section ul li a {
+    color: #004a86;
+    text-decoration: none;
+}
+
+#texto_centralizado {
+    display: inline;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #2f9e41;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    height: 100px;
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.banner {
+    background: url('../img/banner.jpg') no-repeat center center/cover;
+    height: 200px;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 48px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.info .box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.info .box h2 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #2f9e41;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #2f9e41;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+}
